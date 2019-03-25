@@ -219,6 +219,59 @@ footer {
     .headerImage {
         display: none;
     }
+    .navigation {
+        margin-top: 9%;
+        justify-content: space-between;
+        margin: 8% 5% 0% 4%;
+    }
+    .header-logo {
+        position: absolute;
+        top: 3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: auto;  
+        margin-top: 3%;  
+    }
+    .navigation a {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 72px;
+        text-align: center;
+        padding: 0;
+        margin-top: 0%;
+        justify-content: center;
+    } 
+    .BorderLine {
+        border-top: 1px solid black;
+        width: 94%;
+        margin: 2%;
+    }
+    .middle-img {
+        width: 94%;
+        margin: 1% 3% 1% 3%;
+    }
+    .topSection {
+        margin: 2% 0% 2% 7%;
+    }
+    .subSectionTop {
+        width: 43.5%;
+        display: inline-block;
+        margin: 3%;
+    }
+    .contact {
+        margin-left: 2%;
+        width: 90%;
+    }
+    .bottomSection {
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    .subSection {
+        display: inline-block;
+        padding: 0 3.5%;
+    }
+
 }
 @media(max-width: 500px) {
     .container {
@@ -237,6 +290,7 @@ footer {
         width: 100%;
         text-align: center;
         font-size: 20px;
+        justify-content: space-evenly;
     }
     .navigation div {
         margin-top: 10px;
@@ -267,7 +321,6 @@ footer {
         flex-direction: column;
         width: 90%;
         margin: 12% 4%;
-        border-top: 
     }
     .middle-img {
         width: 90%;
@@ -276,10 +329,6 @@ footer {
     .bottomSection {
         flex-direction: column;
         margin: 2% 0;
-    }
-    .subSection {
-        margin: 0% 4%;
-        width: 90%;
     }
     .contact {
         margin-left: 5%;
