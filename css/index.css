@@ -253,6 +253,7 @@ footer {
     }
     .topSection {
         margin: 2% 0% 2% 7%;
+        line-height: 18px;
     }
     .subSectionTop {
         width: 43.5%;
@@ -260,16 +261,21 @@ footer {
         margin: 3%;
     }
     .contact {
-        margin-left: 2%;
+        margin-left: 3%;
         width: 90%;
+        margin-top: 5%;
     }
     .bottomSection {
         justify-content: space-between;
-        margin-bottom: 5%;
+        margin-bottom: 7%;
+        line-height: 18px;
     }
     .subSection {
         display: inline-block;
         padding: 0 3.5%;
+    }
+    .contact p {
+        margin: 10px 0px 0px 0px;
     }
 
 }
